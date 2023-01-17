@@ -1,0 +1,38 @@
+{% extends 'hospital/homebase.html' %}
+
+{% block content %}
+
+<head>
+  <style>
+    .animated-text {
+      animation: moving-text 15s linear infinite;
+    }
+
+    @keyframes moving-text {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+
+
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom:0px;">
+  <h1 class="display-4" style="text-align:center;">Hello, Patient</h1>
+  <p class="lead animated-text">WELCOME TO CONSTANT HOSPITAL. YOUR GOOD HEALTH IS OUR PRIORITY. CHOOSE CONSTANT HOSPITAL AS YOUR NUMBER 1 BEST HEALTH CARE.</p>
+  <hr class="my-4">
+  <p>You can access various features after Login/SignUp.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/patientsignup" role="button">Register Your Account</a>
+    <a class="btn btn-primary btn-lg" href="/patientlogin" role="button">Login</a>
+  </p>
+</div>
+
+{% endblock content %}

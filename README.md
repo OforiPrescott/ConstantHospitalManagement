@@ -24,7 +24,7 @@
 ---
 
 ## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Install Python(Latest Version) (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
 ```
 pip install django==3.0.5
@@ -53,7 +53,7 @@ EMAIL_RECEIVING_USER = 'youremail@gmail.com'
 - Login to gmail through host email id in your browser and open following link and turn it ON
 ```
 https://myaccount.google.com/lesssecureapps
-```
+(Learnt this process has been disabled, but you can still search and do yours)
 ## Drawbacks/LoopHoles
 - Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
 - There should be at least one doctor in hospital before admitting patient. So first add doctor.
@@ -61,5 +61,6 @@ https://myaccount.google.com/lesssecureapps
 
 ## Disclaimer
 This project is developed for demo purpose and it's not supposed to be used in real application.
+If you want to use it in real time you should go deeper and ask for the hospital you've taken as your case studies requirements
 
 
